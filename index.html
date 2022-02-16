@@ -2,22 +2,96 @@
 <html>
     <head>
         <title></title>
+        <style>
+   body {
+       background: rgb(99, 60, 136);
+       color: rgb(148, 71, 71);
+       padding: 10px;
+       font-family: arial;
+   }
+   #all-contents {
+     max-width: 800px;
+       margin: auto;
+   }
+
+   /* navigation menu */
+   nav { border-radius: 10% / 50%;
+       background: rgb(175, 29, 194);
+      margin: 0 auto;
+      margin-bottom: 20px;
+       display: flex;
+       padding: 10px;
+   }
+   h1 {
+       display: flex;
+       align-items: center;
+       color: rgb(192, 17, 139);
+       flex: 1;
+       margin: 0;
+   }
+   #nav-ul {
+       list-style-image: none;
+   }
+   .nav-li {
+       display: inline-block;
+       padding: 0 10px;
+   }
+   a {
+       text-decoration: none;
+       color: #fff;
+   }
+
+   /* main container area beneath menu */
+   main {
+       background: rgb(245, 238, 219);
+       display: flex;
+   }
+   .sidebar {
+       margin-right: 25px;
+       padding: 10px;
+   }
+   .sidebar-img {
+       width: 200px;
+   }
+   .content {
+       flex: 1;
+       padding: 15px;
+   }
+   #interests {
+       border: 4px silver ridge;
+       padding: 8px;
+   }
+   h2, h3 {
+       margin: 0px;
+   }
+</style>
     </head>
     
     <body>
-        <div>
+        <!-- All content goes here -->
+        <div id="all-contents">
+            
             <nav>
-
+                <h1> Average Depressing Website for Sad People </h1>
+                <ul id="nav-ul">
+                    <li class="nav-li">
+                        <a href="index.html"> Home </a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="portfolio.html"> Portfolio </a>
+                    </li>
+                </ul>
             </nav>
 
             <main>
-                <div>
-                    <img>
+                <!--SidebarSection-->
+                <div class="sidebar">
+                    <img class="sidebar-img" src="https://media1.giphy.com/media/XdUzjIkQ4tmDQwYckP/giphy-downsized-large.gif">
     
                 </div>
 
-
-                <div>
+                <!--Content-->
+                <div class="content">
                     <h2> 
                          Alex Prestidge
                     
@@ -29,7 +103,7 @@
                     </p>
                     
                     <!-- Interests section -->
-                    <div> 
+                    <div class="interests"> 
                         <h3>
                             Interests
               
@@ -38,17 +112,17 @@
                         
                         <ul> 
                             <li>
-
-
-                            </li>
-
-                            <li>
-
+                                Being Astronaut because I'm Neil Armstrong's Great Grandson
 
                             </li>
 
                             <li>
+                                Buying Expensive Art because I'm Bouje
 
+                            </li>
+
+                            <li>
+                                Fishing Like a Hillbilly =D
                                 
                             </li>
 
@@ -57,6 +131,7 @@
                         </ul>
 
                     </div>
+                    
                 </div>
             </main>
            
